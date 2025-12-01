@@ -1,0 +1,6 @@
+student_id,spot_id,category_id,created_at,rating,comment
+1,1,1,2025-10-05 10:00:00+00,5,Great spot for studying
+2,1,2,2025-10-05 10:05:00+00,4,Quiet but sometimes crowded
+3,2,3,2025-10-05 10:10:00+00,3,Comfortable chairs
+4,3,4,2025-10-05 10:15:00+00,5,Excellent Wi-Fi
+5,4,5,2025-10-05 10:20:00+00,4,Lots of natural light

@@ -1,0 +1,5 @@
+name,building_code,area_description,seating_capacity,power_outlets,natural_light,open_24_7,is_active,created_at
+ECSS 2nd Floor Lobby,ECSS,Near main staircase,40,TRUE,TRUE,FALSE,TRUE,2025-10-01 09:00:00+00
+JSOM Quiet Room,JSOM,Top floor,25,FALSE,TRUE,FALSE,TRUE,2025-10-01 09:05:00+00
+Library Main Hall,LIB,Center of library,60,TRUE,FALSE,TRUE,TRUE,2025-10-01 09:10:00+00
+Student Center Lounge,SC,Near food court,30,FALSE,TRUE,TRUE,TRUE,2025-10-01 09:15:00+00

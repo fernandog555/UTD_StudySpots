@@ -1,0 +1,6 @@
+netid,created_at,hashed_password
+cnguyen,2025-10-01 08:00:00+00,hashedpwd123
+henry123,2025-10-01 08:05:00+00,hashedpwd456
+fernando,2025-10-01 08:10:00+00,hashedpwd789
+benjamin,2025-10-01 08:15:00+00,hashedpwd321
+artin,2025-10-01 08:20:00+00,hashedpwd654

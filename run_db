@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# Toggle unsafe login demo: set USE_UNSAFE_LOGIN=1 to enable vulnerable path.
+USE_UNSAFE_LOGIN=${USE_UNSAFE_LOGIN:-0}
+
+# Always clean up any previous container with this name
+sudo docker rm -f studyspots 2>/dev/null || true
+
+sudo docker run --name studyspots \
+    -e POSTGRES_USER=postgres \
+    -e POSTGRES_PASSWORD=password \
+    -e POSTGRES_DB=studyspots \
+    -p 5433:5432 \
+    -v "$(pwd)/postgresql:/docker-entrypoint-initdb.d" \
+    -d postgres
+
+DATABASE_URL=postgresql://postgres:password@localhost:5433/studyspots \
+USE_UNSAFE_LOGIN=$USE_UNSAFE_LOGIN \
+uvicorn backend.app:app --reload
+
+sudo docker rm -f studyspots
