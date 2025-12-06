@@ -99,12 +99,6 @@ Below is the **final production schema** implemented in PostgreSQL via FastAPI:
 
 ---
 
-### **categories Table (optional — only if categories are used)**
-
-> ⚠️ *Categories are currently not used in the production version. Remove this table if unused.*
-
----
-
 ## 📥 Data Collection
 
 - Direct observations of campus locations  
